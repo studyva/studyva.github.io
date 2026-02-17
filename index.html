@@ -3,93 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Categories</title>
+    <title>Study VA - Courses</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f8ff;
+            color: #333;
         }
-        header {
-            background: #35424a;
-            color: #ffffff;
-            padding: 10px 0;
+        h1 {
             text-align: center;
+            color: #4CAF50;
         }
-        .category {
-            background: #ffffff;
-            margin: 10px;
+        .course-category {
+            margin: 20px;
             padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border: 2px solid #4CAF50;
+            border-radius: 8px;
+            background-color: #e0ffe6;
         }
-        .category h2 {
-            color: #35424a;
-        }
-        footer {
+        .contact-section {
             text-align: center;
-            margin-top: 20px;
-            padding: 10px 0;
-            background: #35424a;
-            color: #ffffff;
+            background-color: #ffeb3b;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            font-size: 24px;
+            color: #000;
+        }
+        .contact-info {
+            font-size: 30px;
+            color: #d32f2f;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 15px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 300px;
+            margin: 10px;
+            padding: 10px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Welcome to Our Courses</h1>
-</header>
-
-<div class="category">
-    <h2>Engineering</h2>
-    <p>Explore various branches of engineering including Mechanical, Civil, and Electrical Engineering.</p>
-</div>
-<div class="category">
-    <h2>Medical</h2>
-    <p>Discover our Medical programs that prepare you for a career in healthcare.</p>
-</div>
-<div class="category">
-    <h2>Commerce</h2>
-    <p>Dive into our Commerce courses including Accounting, Finance, and Business Management.</p>
-</div>
-<div class="category">
-    <h2>Arts & Science</h2>
-    <p>Engage with Arts and Science disciplines to develop your creative and analytical skills.</p>
-</div>
-<div class="category">
-    <h2>Law</h2>
-    <p>Learn about Legal Studies and gain an understanding of the law.</p>
-</div>
-<div class="category">
-    <h2>Design</h2>
-    <p>Explore courses in Graphic Design, Fashion Design, and Interior Design.</p>
-</div>
-<div class="category">
-    <h2>Hotel Management</h2>
-    <p>Pursue a career in hospitality with our Hotel Management programs.</p>
-</div>
-<div class="category">
-    <h2>Creative Arts</h2>
-    <p>Express your creativity through our courses in Music, Dance, and Arts.</p>
-</div>
-<div class="category">
-    <h2>Computer & IT</h2>
-    <p>Get hands-on experience with Information Technology and Computer Science.</p>
-</div>
-<div class="category">
-    <h2>Teacher Education</h2>
-    <p>Prepare for a career in teaching with our Teacher Education courses.</p>
-</div>
-<div class="category">
-    <h2>Allied Health Sciences</h2>
-    <p>Join our Allied Health Sciences programs for careers in medical assistance and wellness.</p>
-</div>
-
-<footer>
-    <p>Contact us: +91-9489922090 | Email: <a href="mailto:justinponpanal@gmail.com">justinponpanal@gmail.com</a></p>
-</footer>
-
+    <h1>Welcome to Study VA</h1>
+    <div class="courses">
+        <div class="course-category"><h2>Category 1</h2><p>Description for Course Category 1.</p></div>
+        <div class="course-category"><h2>Category 2</h2><p>Description for Course Category 2.</p></div>
+        <div class="course-category"><h2>Category 3</h2><p>Description for Course Category 3.</p></div>
+        <div class="course-category"><h2>Category 4</h2><p>Description for Course Category 4.</p></div>
+        <div class="course-category"><h2>Category 5</h2><p>Description for Course Category 5.</p></div>
+        <div class="course-category"><h2>Category 6</h2><p>Description for Course Category 6.</p></div>
+        <div class="course-category"><h2>Category 7</h2><p>Description for Course Category 7.</p></div>
+        <div class="course-category"><h2>Category 8</h2><p>Description for Course Category 8.</p></div>
+        <div class="course-category"><h2>Category 9</h2><p>Description for Course Category 9.</p></div>
+        <div class="course-category"><h2>Category 10</h2><p>Description for Course Category 10.</p></div>
+        <div class="course-category"><h2>Category 11</h2><p>Description for Course Category 11.</p></div>
+    </div>
+    <div class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            Phone: +91-9489922090<br>
+            Email: <a href="mailto:justinponpanal@gmail.com">justinponpanal@gmail.com</a><br>
+            <a href="https://wa.me/+919489922090">WhatsApp Us!</a>
+        </div>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
 </body>
 </html>
